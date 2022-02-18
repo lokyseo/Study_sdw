@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <List>
 using namespace std;
 
@@ -79,7 +79,7 @@ int main()
 	cout << pList->Value << endl;
 	cout << pList->Next->Value << endl;
 	*/
-	
+	/*
 	Node* pList = new Node;
 
 	pList->Front = nullptr;
@@ -222,3 +222,4 @@ int size()
 	
 	return iSize;
 }
+*/

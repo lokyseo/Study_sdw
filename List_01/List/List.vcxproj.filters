@@ -13,25 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\MainUpdate">
-      <UniqueIdentifier>{227c931f-a91b-4811-a4b8-d4e5c0a2845c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\List">
       <UniqueIdentifier>{a5b955fe-3a3c-4e58-b596-998dc84d8ee3}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\Class">
       <UniqueIdentifier>{dd941039-47ac-4120-8dfb-858c8b1fac91}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Class\PlayerController">
-      <UniqueIdentifier>{213ddbcd-f739-4137-ac87-43ffa552e307}</UniqueIdentifier>
+    <Filter Include="소스 파일\Class\Object">
+      <UniqueIdentifier>{8b2ea873-7637-41d2-a86e-3f3c6e004802}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Scene">
+    <Filter Include="소스 파일\Class\MainUpdate">
+      <UniqueIdentifier>{227c931f-a91b-4811-a4b8-d4e5c0a2845c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class\Scene">
       <UniqueIdentifier>{09967358-d5f0-48ad-b633-551b7107a1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class\Object\PlayerController">
+      <UniqueIdentifier>{213ddbcd-f739-4137-ac87-43ffa552e307}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Update.cpp">
-      <Filter>소스 파일\MainUpdate</Filter>
+      <Filter>소스 파일\Class\MainUpdate</Filter>
     </ClCompile>
     <ClCompile Include="MMain.cpp">
       <Filter>소스 파일</Filter>
@@ -39,28 +42,31 @@
     <ClCompile Include="Main.cpp">
       <Filter>소스 파일\List</Filter>
     </ClCompile>
-    <ClCompile Include="Object.cpp">
-      <Filter>소스 파일\Class</Filter>
-    </ClCompile>
     <ClCompile Include="PlayerController.cpp">
-      <Filter>소스 파일\Class\PlayerController</Filter>
+      <Filter>소스 파일\Class\Object\PlayerController</Filter>
     </ClCompile>
     <ClCompile Include="Scene.cpp">
-      <Filter>소스 파일\Scene</Filter>
+      <Filter>소스 파일\Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일\Class\Object</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Update.h">
-      <Filter>소스 파일\MainUpdate</Filter>
-    </ClInclude>
-    <ClInclude Include="Object.h">
-      <Filter>소스 파일\Class</Filter>
+      <Filter>소스 파일\Class\MainUpdate</Filter>
     </ClInclude>
     <ClInclude Include="PlayerController.h">
-      <Filter>소스 파일\Class\PlayerController</Filter>
+      <Filter>소스 파일\Class\Object\PlayerController</Filter>
     </ClInclude>
     <ClInclude Include="Scene.h">
-      <Filter>소스 파일\Scene</Filter>
+      <Filter>소스 파일\Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>소스 파일\Class\Object</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -16,4 +16,3 @@ public:
 	Scene();
 	~Scene();
 };
-
